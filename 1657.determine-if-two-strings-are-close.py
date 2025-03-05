@@ -21,4 +21,5 @@ class Solution:
         sorted_word2 = sorted(freq_word2.values())
 
         keys_match = set(freq_word1.keys()) == set(freq_word2.keys())
+        
         return sorted_word1 == sorted_word2 and keys_match
